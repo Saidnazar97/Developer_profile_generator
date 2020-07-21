@@ -1,28 +1,17 @@
 {
-  "name": "developer-profile-generator",
+  "name": "HW_12_Homework",
   "version": "1.0.0",
-  "description": "A command-line application that dynamically generates a PDF profile from a GitHub username",
+  "description": "Developers are often tasked with creating interfaces that make it easy for non-developers to view and interact with information stored in databases. Often these interfaces are known as **C**ontent **M**anagement **S**ystems. In this homework assignment, your challenge is to architect and build a solution for managing a company's employees using node, inquirer, and MySQL.",
   "main": "index.js",
   "scripts": {
-    "start": "echo \"Start of Dev profile generator\" && node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mankinchi/developer-profile-generator.git"
-  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mankinchi/developer-profile-generator/issues"
-  },
-  "homepage": "https://github.com/mankinchi/developer-profile-generator#readme",
   "dependencies": {
-    "axios": "^0.19.0",
-    "ejs": "^3.0.1",
-    "inquirer": "^7.2.0",
-    "puppeteer": "^2.0.0"
-  },
-  "devDependencies": {},
-  "keywords": []
+    "console.table": "^0.10.0",
+    "inquirer": "^7.3.0",
+    "mysql": "^2.18.1"
+  }
 }
